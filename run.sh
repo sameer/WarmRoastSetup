@@ -1,1 +1,1 @@
-/usr/lib/jvm/java-8-oracle/bin/java -Djava.library.path=/usr/lib/jvm/java-8-oracle/jre/bin -cp /usr/lib/jvm/java-8-oracle/lib/tools.jar:warmroast.jar com.sk89q.warmroast.WarmRoast --thread "Server thread" -m ./conf
+$JAVA_HOME/bin/java -Djava.library.path=$JAVA_HOME/jre/bin -cp $JAVA_HOME/lib/tools.jar:warmroast.jar com.sk89q.warmroast.WarmRoast --thread "Server thread" -m ./conf
