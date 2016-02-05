@@ -1,11 +1,10 @@
 # WarmRoast Easy Setup
 
 ## Linux
-**Attention:** *Oracle Java 8 is required for this to work...!*
 
-If you do not have Oracle Java 8, you can install it by running `./install_oracle_java8.sh`
+**UPDATE:** The only requirements to run WarmRoast now is JDK 8 and the ability to run the `java` command.
 
-Run `./run.sh` to start WarmRoast. Enter the # for the corresponding server you are running.
+Do `./run.sh` to start WarmRoast. Enter the # for the corresponding server you are running.
 
 **If you cannot identify the server (because they all look the same), you can either add an argument at the end of your `launch.sh` script like `--log-strip-color` or rename the JAR file.**
 
