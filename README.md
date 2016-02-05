@@ -3,8 +3,6 @@
 ## Linux
 [Tutorial Video](https://youtu.be/c0ffjooX7Jw)
 
-**Attention:** *Oracle Java 8 is required for this to work...!*
-
 **UPDATE:** The only requirements to run WarmRoast now is JDK 8 and the ability to run the `java` command.
 
 Do `./run.sh` to start WarmRoast. Enter the # for the corresponding server you are running.
