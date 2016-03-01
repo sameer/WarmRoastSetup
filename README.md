@@ -3,7 +3,7 @@
 ## Linux
 [Tutorial Video](https://youtu.be/c0ffjooX7Jw)
 
-**UPDATE:** The only requirements to run WarmRoast now is JDK 8 and the ability to run the `java` command.
+**UPDATE:** The only requirements to run WarmRoast now is the Java Developer's Kit and the ability to run the `java` command.
 
 **WARNING:** Do not leave WarmRoast on forever! It can seriously degrade your server's performance if left on for no reason!
 
