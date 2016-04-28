@@ -1,10 +1,12 @@
 @ECHO OFF
 :: ------------------------------------------------------------------
-::  JavaHome.bat - search for and set JAVA_HOME
+::  run.bat - set JAVA_HOME and then run WarmRoast
+::  Authors: @djangofan (JAVA_HOME finding), Robotia  (WarmRoast part)
 ::  1. If JAVA_HOME is set in system environment, do nothing else.
 ::  2. If javahome.txt already exists, use that value
 ::  3. If those fail, search parent directories for java.exe
-::  4. Finally, try looking in the registry for other Java installations
+::  4. Try looking in the registry for other Java installations
+::  5. If the Java directory was found, WarmRoast will start up.
 ::  Note- Script does not add trailing slash to JAVA_HOME variable
 ::  Note- JBINARY var can be set to JRE or JDK detection
 :: ------------------------------------------------------------------
