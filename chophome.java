@@ -1,6 +1,6 @@
 public class chophome
 {
-public static void main(String[] args)
+public static void main(String[] args) //chophome's a funny word
 {
 String fullname = "";
 for(String a : args)fullname += a + " ";
